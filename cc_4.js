@@ -1,4 +1,4 @@
-// Retail Discount Engine: Dynamic Pricing Rules and Inventory Cycling
+// Retail Discount Engine - Alejandro Quevedo
 
 const products = [
   { name: "Wireless Headphones", category: "electronics", price: 79.99, inventory: 8 },
@@ -90,3 +90,5 @@ for (const product of products) {
     console.log(`${key}: ${value}`);
   }
 }
+
+console.log("Program finished successfully");
